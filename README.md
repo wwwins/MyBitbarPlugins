@@ -10,6 +10,5 @@ copy XXX.plugin.py ~/Documents/BitBarPlugins/
 ![screenshot.png](https://raw.githubusercontent.com/wwwins/MyBitbarPlugins/master/screenshots/screenshot.png)
 
 ![screenshot-jpy-history](https://raw.githubusercontent.com/wwwins/MyBitbarPlugins/master/screenshots/screenshot-jpy-history.png)
-
-<img align="right" src="https://raw.githubusercontent.com/wwwins/MyBitbarPlugins/master/screenshots/screenshot-jpy-history.png" style="max-width:100%;">
+<img align="right" src="https://raw.githubusercontent.com/wwwins/MyBitbarPlugins/master/screenshots/screenshot-ios.png" style="max-width:100%;">
 
