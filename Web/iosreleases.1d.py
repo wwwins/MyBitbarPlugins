@@ -8,6 +8,7 @@
 # <bitbar.image></bitbar.image>
 
 import datetime
+import re
 
 from urllib2 import urlopen
 from urllib2 import Request
@@ -39,10 +40,9 @@ result = sorted(unique_arr, key=lambda x:datetime.datetime.strptime(x['date'], '
 
 for item in result[0:10]:
     if ios_version=="":
-        s = item['title'].split(' ')
-        ios_version = s[2]
-        if len(s) > 3:
-            ios_version = s[2]
+        m = re.search('[\d]+\.[\d.]+', item['title'])
+        if m:
+            ios_version = m.group()
         print(u'iOS:'+ios_version+"|color="+color).encode('utf-8')
         print('---')
     print format_text(item)
