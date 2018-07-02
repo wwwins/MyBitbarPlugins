@@ -1,5 +1,4 @@
 #!/Users/isobar/.virtualenvs/py3/bin/python
-#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # <bitbar.title>JPY to NTD</bitbar.title>
 # <bitbar.version>1.0</bitbar.version>
