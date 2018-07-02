@@ -6,7 +6,7 @@ AWK="/usr/bin/awk"
 GREP="/usr/bin/grep"
 TAIL="/usr/bin/tail"
 HEAD="/usr/bin/head"
-URL="http://rate.bot.com.tw/xrt/flcsv/0/L3M/JPY"
+URL="https://rate.bot.com.tw/xrt/flcsv/0/L3M/JPY"
 
 if [ ! -f "${SPARK}" ]; then
     echo "Install spark utility please."

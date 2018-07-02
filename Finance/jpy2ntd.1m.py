@@ -1,3 +1,4 @@
+#!/Users/isobar/.virtualenvs/py3/bin/python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # <bitbar.title>JPY to NTD</bitbar.title>
@@ -23,7 +24,7 @@ if (int(time.strftime("%H")) < 9):
 	print ('🈚️')
 	exit()
 
-r = requests.get("http://rate.bot.com.tw/xrt?Lang=zh-TW")
+r = requests.get("https://rate.bot.com.tw/xrt?Lang=zh-TW")
 doc = html.fromstring(r.text)
 content = doc.cssselect("td.rate-content-cash")
 jpy = content[15].text
